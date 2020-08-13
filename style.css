@@ -1,0 +1,18 @@
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;   
+}
+.hero{
+    padding-top: 232px;
+    background-color:#457b9d;
+    height: 100vh; 
+}
+a{
+    color: azure;
+}
+.contact{
+    background-color:#1d3557 ;
+    color: azure;  
+}

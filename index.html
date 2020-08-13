@@ -4,8 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+      
+    <ul class="nav justify-content-end navcolor" >
+        <li class="nav-item">
+          <a class="nav-link active" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="jumbotron jumbotron-fluid hero">
+        <div class="container">
+          <h1 class="display-4 d-flex justify-content-center">Hey I am Anushka</h1>
+          <p class="lead d-flex justify-content-center">A Web developer</p>
+        </div>
+      </div>
+      <div class="projects">
+          <h1 class="display-4 d-flex justify-content-center">These are some of my projects</h1>
+          <div class="container">
+              <div class="row">
+                  <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                  </div>
+                 <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+              </div>
+          </div>          
+      </div>
+      <div class="contact-me">
+        <form>
+            <div class="form-group">
+             <label for="exampleFormControlInput1">Name</label>
+             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name">  
+              <label for="exampleFormControlInput1">Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Subject</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="write something.."></textarea>
+            </div>
+          </form> 
+      </div>
+      <div class="contact">
+        <h1 class="d-flex justify-content-center">Let's work together...</h1>
+        <p class="d-flex justify-content-center">How do you take your coffee?</p>
+        <div class="d-flex justify-content-center">
+            <a href="mailto:abc@example.com" class="" ><i class="fas fa-envelope-square"></i> Email</a>
+            <a href=""><i class="fab fa-instagram"></i> instagram</a>
+            <a href="tel:0762538882"><i class="fas fa-phone-square-alt"></i> Call me</a>
+        </div>   
+      </div>
+      <footer>
+        <h5 class="d-flex justify-content-center">Copyrights 2020</h5>
+       
+      </footer>
+      <script src="https://kit.fontawesome.com/36d1201d09.js" crossorigin="anonymous"></script>
 </body>
 </html>
