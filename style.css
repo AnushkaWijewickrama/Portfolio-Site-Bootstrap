@@ -1,18 +1,67 @@
-.navbar{
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;   
-}
+html {
+    scroll-behavior: smooth;
+  }
 .hero{
-    padding-top: 232px;
-    background-color:#457b9d;
-    height: 100vh; 
+    background-image: url(/images/project3.jpg);
+    background-size: cover;
 }
 a{
-    color: azure;
+   color: azure;
 }
 .contact{
     background-color:#1d3557 ;
-    color: azure;  
+    color: azure; 
+     
 }
+.img-coffee{
+   width: 200px;
+}
+.block-size{
+    height: 50%
+}
+.pro-button {
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #457b9d;
+}
+.pro-button:hover {
+    background-color: #457b9d;
+    color: white;
+}
+.size-icon {
+    font-size: 30px;
+}
+.zoom {
+    transition: transform .2s;
+}
+.zoom:hover {
+    transform: scale(1.1);
+    transition: transform .2s;
+}
+.pro-text {
+    text-indent: 50px;
+    letter-spacing: 3px;
+}
+.font-size{
+    font-size: 80px;
+    color: #f1faee;
+}
+.p-size{
+    color: #f1faee;
+}
+.footer-font-size{
+    font-size: 14px;
+}
+.gif-size{
+    width: 100px;
+}
+
