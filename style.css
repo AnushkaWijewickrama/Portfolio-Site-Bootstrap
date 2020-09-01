@@ -5,6 +5,9 @@ html {
     background-image: url(/images/project3.jpg);
     background-size: cover;
 }
+.navbar{
+    background-color: #1d3557;
+}
 a{
    color: azure;
 }
@@ -12,6 +15,10 @@ a{
     background-color:#1d3557 ;
     color: azure; 
      
+}
+.nav-size {
+    font-size: 20px;
+    height: 86px;
 }
 .img-coffee{
    width: 200px;
