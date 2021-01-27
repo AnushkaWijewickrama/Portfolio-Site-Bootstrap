@@ -55,11 +55,17 @@ a{
     transition: transform .2s;
 }
 .pro-text {
-    text-indent: 50px;
     letter-spacing: 3px;
 }
 .font-size{
-    font-size: 80px;
+    font-size: 43px;
+    color: #f1faee;
+}
+.font-heading-size{
+    font-size: 43px;
+}
+.bottom-font-size{
+    font-size: 43px;
     color: #f1faee;
 }
 .p-size{
@@ -70,5 +76,12 @@ a{
 }
 .gif-size{
     width: 100px;
+}
+.image{
+    margin-bottom: 15px;
+}
+.icon-size{
+    font-size: 1.25rem;
+    margin-right: 10px;
 }
 

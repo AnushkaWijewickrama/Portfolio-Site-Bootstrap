@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav class="navbar navbar-dark position-fixed fixed-top w-100 nav-size">
-        <a class="navbar-brand" href="#">Portfolio</a>
+        <a class="navbar-brand" href="#">Home</a>
       
     <ul class="nav justify-content-end" >
         <li class="nav-item">
@@ -24,13 +24,13 @@
       </ul>
     </nav>
     <div class="jumbotron jumbotron-fluid hero vh-100 d-flex align-items-center p-0" id="about">
-        <div class="container">
-          <h1 class="display-4 d-flex justify-content-center font-weight-bold font-size">Hey I am Anushka</h1>
-          <p class="lead d-flex justify-content-center font-weight-bold p-size">A Web developer</p>
+        <div class="container ">
+          <h1 class="display-4 font-size text-center">Hey I am Anushka</h1>
+          <p class="lead  p-size text-center">A Web developer</p>
         </div>
       </div>
       <div class="projects p-4" id="work">
-          <h1 class="display-4 d-flex justify-content-center">These are some of my projects</h1>
+          <h1 class="display-4 text-center font-heading-size">These are some of my projects</h1>
           <div class="container">
               <div class="row">
                   <div class="col-12 col-sm-12 col-md-6 col-lg-4 mt-4 zoom">
@@ -39,7 +39,12 @@
                         <img src="/images/fitlife/fitlifenew.JPG" class="card-img-top" alt="...">
                        </a>
                         <div class="card-body">
-                          <h5 class="card-text pro-text">FitLife</h5>
+                          <h5 class="card-text pro-text text-center">FitLife</h5>
+                          <div class="d-flex justify-content-center align-items-center">
+                            <i class="fab fa-vuejs icon-size"></i>
+                            <i class="fab fa-bootstrap icon-size"></i>
+                            <i class="fab fa-php icon-size"></i>
+                          </div>
                         </div>
                         <button type="button" class="pro-button" data-toggle="modal" data-target="#exampleModal">More Details</button>
                       </div>
@@ -50,20 +55,44 @@
                         <img src="/images/weatherfirst/new.JPG" class="card-img-top" alt="...">
                       </a>
                         <div class="card-body">
-                          <h5 class="card-text pro-text">I Weather</h5>
+                          <h5 class="card-text pro-text text-center">I Weather</h5>
+                          <div class="d-flex justify-content-center align-items-center">
+                            <i class="fab fa-vuejs icon-size"></i>
+                            <i class="fab fa-bootstrap icon-size"></i>
+                            <i class="fab fa-php icon-size"></i>
+                          </div>
                         </div>
                         <button type="button" class="pro-button" data-toggle="modal" data-target="#exampleModal2">More Details</button>
                       </div>
                   </div>
                  <div class="col-12 col-sm-12 col-md-6 col-lg-4 mt-4 zoom">
                     <div class="card">
-                        <img src="/images/project2.jpg" class="card-img-top" alt="...">
+                        <img src="/images/full motion/banner3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <p class="card-text pro-text">unknown App</p>
+                          <h5 class="card-text pro-text text-center">Full Motion</h5>
+                          <div class="d-flex justify-content-center align-items-center">
+                            <i class="fab fa-sass icon-size"></i>
+                            <i class="fab fa-bootstrap icon-size"></i>
+                            <i class="fab fa-html5 icon-size"></i>
+                          </div>
                         </div>
-                        <button type="button" class="pro-button" data-toggle="modal" data-target="#exampleModal3">More Details</button>
+                        <button onclick="document.location='/projects/full motion.html'" type="button" class="pro-button" data-toggle="modal" data-target="#exampleModal3">More Details</button>
                       </div>
                 </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 mt-4 zoom">
+                  <div class="card">
+                      <img src="/images/cloudbudget/features.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-text pro-text text-center">Cloudbudget</h5>
+                        <div class="d-flex justify-content-center align-items-center">
+                          <i class="fab fa-sass icon-size"></i>
+                          <i class="fab fa-bootstrap icon-size"></i>
+                          <i class="fab fa-html5 icon-size"></i>
+                        </div>
+                      </div>
+                      <button onclick="document.location='/projects/full motion.html'" type="button" class="pro-button" data-toggle="modal" data-target="#exampleModal3">More Details</button>
+                    </div>
+              </div>
                
               </div>
           </div>
@@ -92,9 +121,9 @@
           </form> 
       </div>
       <div class="contact p-4 border-bottom-2 border-success">
-        <h1 class="d-flex justify-content-center">Let's work together...</h1>
-        <p class="d-flex justify-content-center">How do you take your coffee?</p>
-        <div class="d-flex justify-content-center">
+        <h1 class=" display-4 text-center bottom-font-size">Let's work together...</h1>
+        <p class="text-center">How do you take your coffee?</p>
+        <div class="d-flex justify-content-center image">
           <img src="images/coffee1.gif" alt="" width="100px">
         </div> 
         <div class="d-flex justify-content-center">
@@ -103,8 +132,8 @@
             <a href="tel:0762538882" class="mr-2"><i class="fas fa-phone-square-alt"></i> Call me</a>
         </div>   
       </div>
-      <footer class="d-flex justify-content-center">
-        <h5 class="footer-font-size">Copyrights 2020</h5> 
+      <footer class="d-flex justify-content-center align-items-center">
+        <h5 class="footer-font-size text-center">Copyrights 2020</h5> 
       </footer>
       <!-- Modal 1 -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
