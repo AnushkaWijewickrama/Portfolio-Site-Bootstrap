@@ -1,0 +1,12 @@
+.button {
+    outline: none;
+    background-color: transparent;
+    border: 2px solid $offWhite;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: $offWhite;
+    transition: background-color 0.1s ease-in;
+    &:hover {
+        background-color: rgba($offWhite, 0.5);
+    }
+}
