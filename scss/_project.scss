@@ -1,0 +1,12 @@
+.project {
+    background-color: $offWhite;
+    img {
+        width: 100%;
+    }
+    .langs {
+        .lang {
+            padding: 5px 10px;
+            border: 2px solid $primaryColor;
+        }
+    }
+}
