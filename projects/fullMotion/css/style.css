@@ -1,0 +1,95 @@
+@charset "UTF-8";
+@import url(/css/font-awesome.min.css);
+
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/banner.jpg);
+    height: 100vh;
+	margin-bottom: 2em;
+}
+#hero .hero-wrapper{
+    text-align: center;
+    color: aliceblue;
+}
+#hero .hero-wrapper h1{
+    font-size: 5em;
+    font-weight: 400;
+    font-family: 'Passion One', cursive;
+    margin: 0;
+}
+#hero .hero-wrapper p a{
+    color: rgba(255, 255, 255, 0.75);
+	text-decoration: none;
+	border-bottom: 1px dotted;
+}
+#hero .hero-wrapper p a:hover{
+    color: #FFF;
+	border: none;
+}
+#hero .hero-wrapper p{
+    color: rgba(255, 255, 255, 0.85);
+	font-size: 1.5em;
+	font-weight: 300;
+}
+#hero .hero-wrapper .more{
+    background-image: url("/images/arrow.svg");
+	background-position: center 1.35em;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border: 1px solid #fff;
+	border-radius: 100%;
+	color: rgba(255, 255, 255, 0.75);
+	display: block;
+	height: 4em;
+	text-indent: 4em;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 4em;
+	z-index: 2;
+	margin: 0 auto 2em auto;
+}
+#hero .hero-wrapper .more:hover{
+    background-color: rgba(255, 255, 255, 0.05);
+	border: 1px solid #fff;
+	color: #FFF;
+}
+#projects{
+    background: #2c2c32;
+}
+.project-wrapper{
+    border-radius: 4px;
+    margin-bottom: 2em;
+	background: #2c2c32;
+    text-align: center;
+    color: aliceblue;
+}
+.image.left, .image.right {
+	max-width: 40%;
+}
+#about-us{
+	padding: 4em 0 2em 0;
+	background-color: #1b1b1f;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.5);
+}
+#about-us .about-wrapper{
+	width: 50%;
+	margin: 0 auto;
+}
+#about-us .about-wrapper .copyright{
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 0.9em;
+	margin: 0 0 2em 0;
+	padding: 0;
+	text-align: center;
+	
+}
+#about-us .about-wrapper .copyright a{
+	text-decoration: none;
+	border-bottom: 1px dotted;
+	color:  rgba(255, 255, 255, 0.5); 
+}
+
